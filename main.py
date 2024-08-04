@@ -21,8 +21,9 @@ print('The total cost of the food plus tip and tax is: ${:.2f}'.format(total_cos
 
 
 # Part 2: Write a python program to solve the problem of 24 hour time
-
-# Ask the user for the time now in hours on a 24-hour clock & how mny hours to wait for the alarm
+print()
+print('This program will calculate the time an alarm will go off in 24-hour time')
+# Ask the user for the time now in hours on a 24-hour clock & how many hours to wait for the alarm
 print()
 current_time = int(input('What is the current time in hours in 24 hour time? (Example: If it is 1pm, enter 13)\n'))
 wait_hours = int(input('How many hours from now should an alarm go off?\n'))
